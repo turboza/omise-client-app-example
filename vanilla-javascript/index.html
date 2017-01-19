@@ -19,10 +19,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Omise Tokenization - Vanilla JavaScript</title>
     <style>
-      input {
-        display: block;
-      }
-      label {
+      input, label {
         display: block;
       }
       #notice {
@@ -86,7 +83,8 @@
             $('#notice').show();
             $('#notice').text(text);
 
-            // <<<< HERE >>> Send token.id to your server to create a charge or save a card
+            // <<<<<<<<<< HERE >>>>>>>>>>>>
+            // Send token.id to your server to create a charge or save a card
           },
           error: function(err) {
             console.log(err);
