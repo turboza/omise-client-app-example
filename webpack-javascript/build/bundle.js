@@ -86,6 +86,9 @@
 	      console.log('Token Id = ' + token.id);
 	      console.log('Use this token to send to your server to create a charge or save a card');
 	      console.log('Full Token Object', token);
+
+	      // <<<<<<<<<< HERE >>>>>>>>>>>>
+	      // Send token.id to your server to create a charge or save a card
 	    }
 	  });
 

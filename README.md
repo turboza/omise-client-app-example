@@ -1,4 +1,4 @@
-# Omise Tokenization Sample
+# Omise Tokenization Example
 Showcases for the usage of Omise Tokenization API on various platforms to help you make a decision which way to use and how to.
 
 ![Tokenization Process](https://cdn.omise.co/assets/developer-documents/images_jpg/small_token@2x.jpg)
@@ -12,7 +12,7 @@ Use Omise.js which is the standard way to tokenize the card information. See the
 Consider this [Webpack example](webpack-javascript/script.js) using [omise-node](https://github.com/omise/omise-node). This has not been tested on all platform but this method should be able to apply on the JavaScript mobile platforms.
 
 3. **If all methods above don't work for any reasons...**
-You may use [Vanilla JavaScript](vanilla-javascript/index.html) to tokenize which should be the last option if you cannot use the method above. 
+You may use [Vanilla JavaScript](vanilla-javascript/index.html) to tokenize which should be the last option if you cannot use the method above.
 
 ## FAQ
 **What is a "tokenization"?**
