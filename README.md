@@ -12,11 +12,9 @@ For developers who works with ReactJS on Website. But this can also be applied w
 
 ## FAQ
 #### What is a "tokenization"?**
-Process of converting card number, security number, including other card information into a token (Ex. tokn_test_56pavx4vsrwplxpj72k).
+Process of converting card number, security number, including other card information into a token (Ex. tokn_test_56pavx4vsrwplxpj72k). And you can later send the token to your server to charge or save it as card to charge later multiple times.
 
-And you can later send the token to your server to charge or save it as card to charge later multiple times.
-
-#### - Why not [Omise.js](https://github.com/omise/omise.js)?
+#### Why not [Omise.js](https://github.com/omise/omise.js)?
 It works perfectly on the most browsers but it requires real HTML DOM to work with API, so it may not work with some mobile wrapper technologies like React Native.
 
 For other questions, please contact support@omise.co
