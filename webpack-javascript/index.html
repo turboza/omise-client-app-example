@@ -1,0 +1,50 @@
+<!--
+  Omise Tokenization - JavaScript Webpack Example
+  ================================================
+  See webpack-javascript/script.js for more info
+
+  This form is implemented as a sample. For real usage, you may need to put
+  validation and enhance user experiences according to this guideline.
+  https://www.omise.co/th/5-trick-for-design-credit-card-payment-form (Thai)
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Omise Tokenization - Webpack JavaScript</title>
+    <style>
+      input, label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Omise Tokenization - Webpack JavaScript Example</h1>
+    <div>
+      <div id="notice"></div>
+      <form method="post" name="card-number-form" id="card-number-form" onsubmit="onSubmit()">
+        <label>Card Number:</label>
+        <input type="number" name="card[number]" value="4242424242424242"/><br/>
+
+        <label>Card Name:</label>
+        <input type="text" name="card[name]" value="John Doe"/><br/>
+
+        <label>Security Code:</label>
+        <input type="password" name="card[security_code]" value="123" /><br/>
+
+        <label>Expiration Month:</label>
+        <input type="number" name="card[expiration_month]" value="12"/><br/>
+
+        <label>Expiration Year:</label>
+        <input type="number" name="card[expiration_year]" value="2030"/><br/>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="build/bundle.js" charset="utf-8"></script>
+  </body>
+</html>
