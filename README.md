@@ -1,5 +1,5 @@
-# Omise Tokenization Example
-Showcases for the usage of Omise Tokenization API on various platforms to help you make a decision which way to use and how to.
+# Omise Client App Example
+Showcases for the usage of Omise Tokenization API to build client app that accepts credit card on various platforms to help you make a decision which way to use and how to.
 
 ![Tokenization Process](https://cdn.omise.co/assets/developer-documents/images_jpg/small_token@2x.jpg)
 
