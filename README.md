@@ -21,4 +21,16 @@ Process of converting card number, security number, including other card informa
 **Why not [Omise.js](https://github.com/omise/omise.js)?**    
 This is the recommended method which works perfectly on the most browsers but it requires real HTML DOM to work with API. Thus, it may not work with some mobile wrapper technologies like React Native.
 
-For other questions, please contact support@omise.co
+**What I can do?**  
+- Tokenize card info on your client (web, mobile app) using omise.js or omise-node (Card info will be sent to Omise Server directly without passing your server)  
+- Send token from client side to server side  
+- Have public key on client side  
+- Have secret key in server side  
+- Perform a charge in server side using received token  
+
+**What I must not do?**  
+- Never tokenize card info on your server (Card info will be passed to your server from client side)  
+- Never perform a charge on client side  
+- Never put secret key on client side  
+
+For other questions, please contact support@omise.co ✨
