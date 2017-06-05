@@ -19,7 +19,7 @@ const omise = require('omise')({
 
 global.onSubmit = (e) => {
   event.preventDefault();
-  const form = document.forms['card-number-form']; // The method to get form data is differ
+  const form = document.forms['card-number-form']; // The method to get form data varies
                                                    // depends on JS Platform
   const cardData = {
     card: {
