@@ -3,7 +3,7 @@
  * Omise Tokenization - JavaScript Webpack Example
  * =================================================
  * This tokenization method should be able to adapt and apply on most of the
- * modern cliend side JavaScript platform Ex. Webpack, React Native, Ionic
+ * modern client side JavaScript platform Ex. Webpack, React Native, Ionic
  *
  * This should be used when if only you cannot use the Omise.js
  *
